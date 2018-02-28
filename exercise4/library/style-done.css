@@ -1,0 +1,71 @@
+/* ==========================================================================
+
+// Stylesheet for Build Lesson 4
+// Author: KU MarComm - Dave G
+// Version: 1.0 - Last Updated: Feb. 21, 2018
+
+========================================================================== */
+
+/* MAIN SITE STYLING ===================================================== */
+
+body {
+  background-color: #f4f4f4;
+  font-family: helvetica,arial, sans-serif;
+}
+
+h1 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 25px;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+
+#container {
+  width: 65%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 5%;
+}
+
+.left_column {
+  float: left;
+  width: 47%;
+
+}
+
+.right_column {
+  float: right;
+  width: 47%;
+}
+
+.image_column {
+  display: block;
+  float: left;
+  width: 31%;
+  padding: 0px 1%;
+}
+
+img.alternate_pet {
+  object-fit: cover;
+  object-position: 20% 50%;
+  height: 200px;
+}
+
+/* Reference for object-fit: https://css-tricks.com/almanac/properties/o/object-fit/ */
+
+img {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+.clear {clear: both;}
