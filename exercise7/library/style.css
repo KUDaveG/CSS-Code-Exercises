@@ -1,0 +1,36 @@
+/* ==========================================================================
+
+// Stylesheet for Build Lesson 4
+// Author: KU MarComm - Dave G
+// Version: 1.0 - Last Updated: Feb. 21, 2018
+
+========================================================================== */
+
+/* MAIN SITE STYLING ===================================================== */
+
+body {
+  background-color: #f4f4f4;
+  font-family: helvetica,arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  color: red;
+}
+
+p {
+  font-size: 1em;
+}
+
+#container {
+  width: 90%;
+  margin: 0px auto;
+  padding: 5%;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* RESPONSIVE STUFF GOES HERE ===================================================== */

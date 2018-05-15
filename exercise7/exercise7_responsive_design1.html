@@ -1,0 +1,66 @@
+<!-- Exercise 7: Responsive design, part 1
+
+OK, it's time to get down with some responsive design.
+In this exercise you'll set up three break points (desktop, tablet, and mobile) using media queries.
+
+//// Need a refresher? https://www.w3schools.com/css/css3_mediaqueries_ex.asp /////
+
+Then, you'll set it to display only the container that's titled with the breakpoint that it's at. For example, at a mobile screen size, it'll only show the mobile container.
+
+-->
+
+
+<!-- OPEN THAT HTML -->
+<!doctype html>
+<html lang="en">
+
+<!-- START THE HEADER -->
+    <head>
+      <meta charset="utf-8">
+      <title>CSS Code Exercise 7: Responsive Design, pt.1</title>
+
+<!-- Don't forget the viewport tag! See: https://www.w3schools.com/css/css_rwd_viewport.asp -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+      <link rel="stylesheet" href="library/style.css">
+
+
+
+    </head>
+<!-- END THE HEADER-->
+
+<!-- START THE BODY -->
+    <body>
+        <div id="container">
+
+            <div class="desktop">
+                <h1>Hi, I'm a desktop computer.</h1>
+                  <img src="http://www.classiccmp.org/dunfield/nec/h/apc.jpg" alt="Desktop computer" />
+                <p>Grandparents love me. So do designers.</p>
+
+            </div>
+
+            <div class="tablet">
+              <h1>Hi, I'm a tablet.</h1>
+                <img src="https://i.kinja-img.com/gawker-media/image/upload/t_original/mxrhw6orsbkwz6qjjba6.jpg" alt="Tablet" />
+              <p>People think I'm good for productivity, but really I'm just a YouTube box.</p>
+
+            </div>
+
+            <div class="mobile">
+              <h1>Hi, I'm a mobile device.</h1>
+                <img src="http://dopamine36.com/wp-content/uploads/2013/09/zack-morris-phone-718x400.jpg" alt="Mobile phone" />
+              <p>Check this out, Zack.</p>
+
+            </div>
+
+
+
+        </div>
+    </body>
+<!-- END THE BODY -->
+
+
+</html>
+<!-- CLOSE THAT HTML -->
