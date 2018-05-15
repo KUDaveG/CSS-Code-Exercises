@@ -10,3 +10,5 @@ We'll take a look at everyone's code each week, answer questions, and talk about
 - Exercise 3: The Box Model
 - Exercise 4: Floats, pt. 1
 - Exercise 5: Floats, pt. 2
+- Exercise 6: Using a CSS icon set
+- Exercise 7: Responsive design, part 1
