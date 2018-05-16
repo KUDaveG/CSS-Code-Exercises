@@ -1,8 +1,8 @@
 /* ==========================================================================
 
-// Stylesheet for Build Lesson 7
+// Stylesheet for Build Lesson 4
 // Author: KU MarComm - Dave G
-// Version: 1.0 - Last Updated: May 14, 2018
+// Version: 1.0 - Last Updated: Feb. 21, 2018
 
 ========================================================================== */
 
@@ -33,4 +33,17 @@ img {
   width: 100%;
 }
 
-/* RESPONSIVE STUFF GOES HERE ===================================================== */
+@media screen and (min-width: 1040px) {
+  .tablet, .mobile {display: none;}
+  .desktop {display: block}
+}
+
+@media screen and (max-width: 1040px) {
+  .desktop, .mobile {display: none;}
+  .tablet {display: block}
+}
+
+@media screen and (max-width: 420px) {
+  .desktop, .tablet {display: none;}
+  .mobile {display: block}
+}
