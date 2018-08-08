@@ -11,5 +11,6 @@ We'll take a look at everyone's code each week, answer questions, and talk about
 - Exercise 4: Floats, pt. 1
 - Exercise 5: Floats, pt. 2
 - Exercise 6: Using a CSS icon set
-- Exercise 7: Responsive design, part 1
+- Exercise 7: Responsive design, pt. 1
 - Exercise 8: Responsive type
+- Exercise 9: Frameworks, pt. 1
