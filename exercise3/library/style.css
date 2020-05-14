@@ -1,0 +1,47 @@
+body {
+    width: 920px;
+    margin: 0 auto;
+}
+
+p {
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.box1, .box2, .box3 {
+    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+.box1 p {
+    background-image: linear-gradient(to right, blue, #fff)
+}
+
+.box1 {
+    background-image: url(../images/tumblr_ohje4q3lWZ1rqgwtdo2_400.png);
+}
+
+.box2 p {
+    background-image: linear-gradient(to right, #fff, yellow)
+}
+
+.box2 {
+    background-image: url(../images/CloudMap.png);
+}
+
+.box3 p {
+    background-image: linear-gradient(to top, #fff, red)
+}
+
+.box3 {
+    background-image: url(../images/Purple_Brick_Background.png);
+}
