@@ -11,10 +11,22 @@
 body {
   background-color: #f4f4f4;
   font-family: helvetica,arial, sans-serif;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.left_column {
+  width: 500px;
+  float: left;
+}
+
+.right_column {
+  width: 500px;
+  float: right;
 }
 
 h1 {
-
+  padding-left: 50px;
 }
 
 h2 {
@@ -25,19 +37,26 @@ p {
 
 }
 
+.image_column {
+  width: 340px;
+  margin: 10px;
+  float: left;
+}
+
 /* Reference for object-fit: https://css-tricks.com/almanac/properties/o/object-fit/ */
 
 
 img.alternate_pet {
-  /*object-fit: cover;
-  height: 200px;*/
+  object-fit: cover;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 img {
-  /*object-fit: cover;
+  object-fit: cover;
   width: 100%;
   display: block;
-  margin: 0px auto;*/
+  margin: 0px auto;
 }
 
 .clear {clear: both;}
